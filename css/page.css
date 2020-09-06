@@ -1,3 +1,6 @@
+html{
+    width:110vw;
+}
 
 body {
     background-color:#000000;
@@ -16,6 +19,9 @@ body {
     background-size:100% 100%;
     background-repeat: no-repeat;
     margin-top:50px;
+   height:105vh;
+    background-position: center;
+    padding:2%;
 
   }
   #home p{
@@ -69,8 +75,13 @@ footer{
 h2::first-letter{
      color:#f4ca13;
  }
-
-@media all and (min-width: 900px){
+ .text-anim{
+     padding:2%;
+ }
+@media all and (min-width: 992px){
+ html{
+     width:100%;
+ }   
 body {
     background-color:#000000;
     background:linear-gradient(45deg,#505353 40%, #030225 80%);
@@ -79,7 +90,7 @@ body {
     margin-top:50px;
   }
   .welcome{
-      padding:5%;
+      padding:1%;
       color: linear-gradient(90deg,#c32626 40%, #ffffff 80%);
   }
   #home{
@@ -88,6 +99,7 @@ body {
     background-image: url("../img/tamburapic.png");
     background-size: 50% 100%;
     background-repeat: no-repeat;
+   height:100%;
 
   }
  
