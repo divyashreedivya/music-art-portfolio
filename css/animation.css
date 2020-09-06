@@ -1,0 +1,11 @@
+@keyframes textColor{
+    0% { color:#ffffff;}
+    50% {color: #e73b42;}
+    100% {color:#f4ca13;}
+}
+.text-anim{
+    animation-name:textColor;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
