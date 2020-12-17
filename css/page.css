@@ -1,11 +1,19 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body{
     background-color:#000000;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
     background:linear-gradient(45deg,#505353 40%, #030225 80%);
     text-align: center;
     width:100%;
     box-sizing: border-box;
     color:#ffffff;
   }
+.navbar-custom{
+    background-color: #111013;
+}
+
   .welcome{
       padding:5%;
       color: linear-gradient(90deg,#c32626 40%, #ffffff 80%);
